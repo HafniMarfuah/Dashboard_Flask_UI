@@ -1,0 +1,11 @@
+Flask==1.1.1
+Jinja2==2.10.1
+matplotlib==3.1.0 visualisasi
+numpy==1.16.4
+Werkzeug==0.15.6 terkait flask untuk running website
+pandas==0.25.3
+\
+
+conda create -n capstone_project python=3.7
+conda activate base
+pip install -r requirements.txt
