@@ -126,7 +126,8 @@ def index():
     # List of five category to plot
     categories = ['FAMILY', 'GAME', 'TOOLS',
          'BUSINESS', 'MEDICAL']
-
+    fig = plt.figure(figsize=(5,5))
+    fig.add_subplot()
     # Iterate through the five categories
     for category in categories:
         # Subset to the category
